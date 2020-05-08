@@ -31,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -140,6 +141,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="479" y="147" width="1082" height="804" key="CommitChangelistDialog2" timestamp="1588897399601">
+      <screen x="0" y="23" width="1792" height="1054" />
+    </state>
+    <state x="479" y="147" width="1082" height="804" key="CommitChangelistDialog2/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1588897399601" />
+    <state x="180" y="117" key="DiffContextDialog" timestamp="1588897418051">
+      <screen x="0" y="23" width="1792" height="1054" />
+    </state>
+    <state x="180" y="117" key="DiffContextDialog/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1588897418051" />
     <state width="1750" height="257" key="GridCell.Tab.0.bottom" timestamp="1588895196184">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
@@ -176,6 +185,10 @@
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
     <state x="397" y="189" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1587945894919" />
+    <state x="496" y="289" key="Vcs.Push.Dialog.v2" timestamp="1588897434830">
+      <screen x="0" y="23" width="1792" height="1054" />
+    </state>
+    <state x="496" y="289" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1588897434830" />
     <state x="560" y="257" width="670" height="676" key="search.everywhere.popup" timestamp="1583574337231">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
