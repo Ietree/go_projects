@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73999b1f-0d06-426b-90dc-41df6c57c9b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/go_projects.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -30,11 +31,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Socket" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -192,6 +194,10 @@
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
     <state x="397" y="189" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1587945894919" />
+    <state x="496" y="289" key="Vcs.Push.Dialog.v2" timestamp="1588897486217">
+      <screen x="0" y="23" width="1792" height="1054" />
+    </state>
+    <state x="496" y="289" key="Vcs.Push.Dialog.v2/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1588897486217" />
     <state x="560" y="257" width="670" height="676" key="search.everywhere.popup" timestamp="1583574337231">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
