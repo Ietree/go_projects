@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73999b1f-0d06-426b-90dc-41df6c57c9b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/go_projects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/GoHttp服务器.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/http应答包-测试服务器.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/获取http请求服务器.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/正则表达式/正则表达式.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫/百度贴吧-并发爬虫.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫/百度贴吧爬虫.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络爬虫/豆瓣电影爬虫.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1Y3T8QgWWjBF4JzGM2beQYSgm5C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,40 +43,34 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/网络爬虫" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Socket" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/网络爬虫" />
       <recent name="$PROJECT_DIR$/文件操作" />
       <recent name="$PROJECT_DIR$/切片的使用" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/网络爬虫" />
+      <recent name="$PROJECT_DIR$/Socket" />
+    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build ChatRoom.go">
-    <configuration name="go build ChatRoom.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 百度贴吧-并发爬虫.go">
+    <configuration name="go build 百度贴吧-并发爬虫.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoAdvance" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ChatRoom/ChatRoom.go" />
+      <filePath value="$PROJECT_DIR$/网络爬虫/百度贴吧-并发爬虫.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build TCP-CS并发客户端.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build GoHttp服务器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoAdvance" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Socket/TCP-CS并发客户端.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build UDP服务器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoAdvance" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Socket/UDP服务器.go" />
+      <filePath value="$PROJECT_DIR$/http/GoHttp服务器.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -89,11 +90,11 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 文件属性.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 百度贴吧爬虫.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoAdvance" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/文件传输/文件属性.go" />
+      <filePath value="$PROJECT_DIR$/网络爬虫/百度贴吧爬虫.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -137,12 +138,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build http应答包-测试服务器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoAdvance" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/http/http应答包-测试服务器.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 获取http请求服务器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoAdvance" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/http/获取http请求服务器.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build ChatRoom.go" />
-        <item itemvalue="Go Build.go build 文件属性.go" />
-        <item itemvalue="Go Build.go build UDP服务器.go" />
-        <item itemvalue="Go Build.go build TCP-CS并发客户端.go" />
+        <item itemvalue="Go Build.go build 百度贴吧-并发爬虫.go" />
+        <item itemvalue="Go Build.go build 百度贴吧爬虫.go" />
+        <item itemvalue="Go Build.go build GoHttp服务器.go" />
+        <item itemvalue="Go Build.go build http应答包-测试服务器.go" />
+        <item itemvalue="Go Build.go build 获取http请求服务器.go" />
       </list>
     </recent_temporary>
   </component>
@@ -158,22 +176,22 @@
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
     <state x="591" y="185" key="#go_build_ChatRoom.go/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1588987593386" />
-    <state width="1750" height="228" key="GridCell.Tab.0.bottom" timestamp="1589080020860">
+    <state width="1750" height="171" key="GridCell.Tab.0.bottom" timestamp="1589415918289">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="228" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589080020860" />
-    <state width="1750" height="228" key="GridCell.Tab.0.center" timestamp="1589080020859">
+    <state width="1750" height="171" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589415918289" />
+    <state width="1750" height="171" key="GridCell.Tab.0.center" timestamp="1589415918289">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="228" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589080020859" />
-    <state width="1750" height="228" key="GridCell.Tab.0.left" timestamp="1589080020859">
+    <state width="1750" height="171" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589415918289" />
+    <state width="1750" height="171" key="GridCell.Tab.0.left" timestamp="1589415918288">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="228" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589080020859" />
-    <state width="1750" height="228" key="GridCell.Tab.0.right" timestamp="1589080020860">
+    <state width="1750" height="171" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589415918288" />
+    <state width="1750" height="171" key="GridCell.Tab.0.right" timestamp="1589415918289">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="228" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589080020860" />
+    <state width="1750" height="171" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589415918289" />
     <state width="1750" height="257" key="GridCell.Tab.1.bottom" timestamp="1588895196185">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
