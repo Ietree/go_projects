@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73999b1f-0d06-426b-90dc-41df6c57c9b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/http/GoHttp服务器.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/http应答包-测试服务器.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/获取http请求服务器.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/正则表达式/正则表达式.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫/百度贴吧-并发爬虫.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫/百度贴吧爬虫.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/网络爬虫/豆瓣电影爬虫.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络爬虫/百度贴吧爬虫.go" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫/百度贴吧爬虫.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/网络爬虫/豆瓣电影爬虫.go" beforeDir="false" afterPath="$PROJECT_DIR$/网络爬虫/豆瓣电影爬虫.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +43,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/网络爬虫" />
+      <recent name="$PROJECT_DIR$/Socket" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/网络爬虫" />
       <recent name="$PROJECT_DIR$/文件操作" />
       <recent name="$PROJECT_DIR$/切片的使用" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/网络爬虫" />
-      <recent name="$PROJECT_DIR$/Socket" />
-    </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 百度贴吧-并发爬虫.go">
+  <component name="RunManager" selected="Go Build.go build 豆瓣电影爬虫.go">
     <configuration name="go build 百度贴吧-并发爬虫.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoAdvance" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -74,14 +70,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build UDP客户端.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoAdvance" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Socket/UDP客户端.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build UDP并发服务器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoAdvance" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -95,6 +83,14 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/网络爬虫/百度贴吧爬虫.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 豆瓣电影爬虫.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoAdvance" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/网络爬虫/豆瓣电影爬虫.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -146,21 +142,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 获取http请求服务器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GoAdvance" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/http/获取http请求服务器.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 豆瓣电影爬虫.go" />
         <item itemvalue="Go Build.go build 百度贴吧-并发爬虫.go" />
         <item itemvalue="Go Build.go build 百度贴吧爬虫.go" />
         <item itemvalue="Go Build.go build GoHttp服务器.go" />
         <item itemvalue="Go Build.go build http应答包-测试服务器.go" />
-        <item itemvalue="Go Build.go build 获取http请求服务器.go" />
       </list>
     </recent_temporary>
   </component>
@@ -176,38 +164,38 @@
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
     <state x="591" y="185" key="#go_build_ChatRoom.go/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1588987593386" />
-    <state width="1750" height="171" key="GridCell.Tab.0.bottom" timestamp="1589415918289">
+    <state width="1750" height="257" key="GridCell.Tab.0.bottom" timestamp="1589814190374">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="171" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589415918289" />
-    <state width="1750" height="171" key="GridCell.Tab.0.center" timestamp="1589415918289">
+    <state width="1750" height="257" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589814190374" />
+    <state width="1750" height="257" key="GridCell.Tab.0.center" timestamp="1589814190373">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="171" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589415918289" />
-    <state width="1750" height="171" key="GridCell.Tab.0.left" timestamp="1589415918288">
+    <state width="1750" height="257" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589814190373" />
+    <state width="1750" height="257" key="GridCell.Tab.0.left" timestamp="1589814190373">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="171" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589415918288" />
-    <state width="1750" height="171" key="GridCell.Tab.0.right" timestamp="1589415918289">
+    <state width="1750" height="257" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589814190373" />
+    <state width="1750" height="257" key="GridCell.Tab.0.right" timestamp="1589814190373">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="171" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589415918289" />
-    <state width="1750" height="257" key="GridCell.Tab.1.bottom" timestamp="1588895196185">
+    <state width="1750" height="257" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589814190373" />
+    <state width="1750" height="257" key="GridCell.Tab.1.bottom" timestamp="1589814190375">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="257" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1588895196185" />
-    <state width="1750" height="257" key="GridCell.Tab.1.center" timestamp="1588895196184">
+    <state width="1750" height="257" key="GridCell.Tab.1.bottom/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589814190375" />
+    <state width="1750" height="257" key="GridCell.Tab.1.center" timestamp="1589814190374">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="257" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1588895196184" />
-    <state width="1750" height="257" key="GridCell.Tab.1.left" timestamp="1588895196184">
+    <state width="1750" height="257" key="GridCell.Tab.1.center/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589814190374" />
+    <state width="1750" height="257" key="GridCell.Tab.1.left" timestamp="1589814190374">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="257" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1588895196184" />
-    <state width="1750" height="257" key="GridCell.Tab.1.right" timestamp="1588895196184">
+    <state width="1750" height="257" key="GridCell.Tab.1.left/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589814190374" />
+    <state width="1750" height="257" key="GridCell.Tab.1.right" timestamp="1589814190374">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
-    <state width="1750" height="257" key="GridCell.Tab.1.right/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1588895196184" />
+    <state width="1750" height="257" key="GridCell.Tab.1.right/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1589814190374" />
     <state x="397" y="189" key="SettingsEditor" timestamp="1587945894919">
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
@@ -220,5 +208,26 @@
       <screen x="0" y="23" width="1792" height="1054" />
     </state>
     <state x="560" y="257" width="670" height="676" key="search.everywhere.popup/1792.23.1920.1057/0.23.1792.1054@0.23.1792.1054" timestamp="1583574337231" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/网络爬虫/豆瓣电影爬虫.go</url>
+          <line>57</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/网络爬虫/豆瓣电影爬虫.go</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/网络爬虫/豆瓣电影爬虫.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

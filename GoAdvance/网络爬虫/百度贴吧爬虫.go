@@ -32,7 +32,7 @@ func httpGet(url string) (result string, err error) {
 	return
 }
 
-func spiderPage(start int, end int) {
+func spiderPage1(start int, end int) {
 	fmt.Printf("正在爬取第%d页到%d页...\n", start, end)
 	for i := start; i < end; i++ {
 		url := "https://tieba.baidu.com/f?kw=%E6%97%A0%E4%BA%BA%E6%9C%BA&ie=utf-8&pn=" + strconv.Itoa((i-1)*50)
@@ -61,5 +61,5 @@ func main() {
 	fmt.Print("请输入查询结束页：")
 	fmt.Scan(&end)
 	// 爬取页面信息
-	spiderPage(start, end)
+	spiderPage1(start, end)
 }
